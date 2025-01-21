@@ -1,6 +1,6 @@
 
 html {
-  font-size: 14px;
+  font-size: 18px;
   position: relative;
   min-height: 100%;
 }
@@ -19,9 +19,8 @@ header {
   width: 100%;
 }
 
-img {
-  max-height: 90px;
-  padding-top: 5px;
+#logo {
+  margin: 0;
 }
 
 .date {
@@ -38,7 +37,7 @@ img {
 
 .sidebar {
   width: 25%;
-  padding:0 0 0 20px; 
+  padding:0 0 0 50px; 
   margin: 0;
   font-size: 24px;
 }
@@ -58,6 +57,35 @@ nav ul li:hover {
   margin: 0 20px 0 0 ; 
 }
 
+.container h2{
+  width: 100%;
+  max-width: 700px;
+  padding-top: 30px;
+  font-size: 24px;
+  line-height: 1.4em;
+}
+
+.container p{
+  width: 100%;
+  max-width: 700px;
+  padding-top: 30px;
+  font-size: 18px;
+  line-height: 1.4em;
+}
+
+.container ul{
+  width: 100%;
+  max-width: 700px;
+  font-size: 18px;
+  line-height: 1.4em;
+}
+
+img {
+  max-width: 300px;
+  border-radius: 50%;
+  margin-top: 40px;
+}
+
 footer {
   position: absolute;
   bottom: 0;
@@ -69,8 +97,10 @@ footer {
   padding: 10px 0;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 800px) {
+
   html {
     font-size: 16px;
   }
+
 }

@@ -15,12 +15,25 @@
 
 <div>
     <h1 class="display-4">Razor</h1> 
-    <h2>Kurser jag har läst: </h2>
 
+    <!-- Kontroll om det är fredag -->
+    @if(DateTime.Now.DayOfWeek == DayOfWeek.Friday) {
+        <p>Idag är det fredag!!</p>
+    } else
+    {
+        <p>Idag är det inte fredag...</p>
+    }
+
+    <h2>Kurser jag har läst: </h2>
+    <!-- Lista på Kurser -->
     <ul>
         @foreach(var course in courses) {
             <li>@course</li>
         }
 
     </ul>
+
+    <!-- Datum och klockslag -->
+    <p><strong>Besöksdatum och tid:</strong> @DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")</p>
+  
 </div>
