@@ -27,6 +27,28 @@ header {
   padding: 30px;
 }
 
+/* Hamburgemenyknapp */
+.hamburger-btn {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 15px;
+}
+
+.hamburger-icon {
+  width: 30px;
+  height: 3px;
+  background-color: #caa75b;
+  display: block;
+  margin: 6px auto;
+}
+
+#close-btn {
+  display: none;
+}
+
+/* Sidinnehåll */
 .main_layout {
   display: flex;
   width: 100%;
@@ -35,6 +57,7 @@ header {
   gap: 20px;
 }
 
+/* Sidebar med navigering */
 .sidebar {
   width: 25%;
   padding:0 0 0 50px; 
@@ -46,11 +69,18 @@ nav ul li {
   width: 100%;
 }
 
+nav ul li a{
+  color: #caa75b;
+}
+
+
+
 nav ul li:hover {
   cursor: pointer;
   text-decoration: underline;
 }
 
+/* Container med main innehåll */
 .container {
   width: 75%;
   padding: 0;
@@ -101,6 +131,61 @@ footer {
 
   html {
     font-size: 16px;
+  }
+
+  .hamburger-btn {
+    display: block;
+  }
+
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .sidebar {
+    width: 100%;
+    position: absolute;
+    left: -100%;
+    top: 0;
+    height: 100vh;
+    background-color: #fff9ec;
+    z-index: 1000;
+    transition: left 0.5s ease;
+  }
+
+  .sidebar.active {
+      left: 0;
+      padding: 0;
+      background-color: #ffffff;
+  }
+
+  .navbar-nav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .navbar-nav li {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .navbar-nav li a {
+    text-decoration: none;
+    display: block;
+  }
+
+  .navbar-nav li:hover {
+    text-decoration: underline;
+  }
+
+  #close-btn {
+    display: block;
+    background-color: #ffffff;
+    border: none;
+    padding: 100px 0 0 30px;
+    color: #caa75b;
   }
 
 }

@@ -18,7 +18,6 @@ C:\mittuniversitetet\.NET\moment1\m1_1\obj\Debug\net9.0\scopedcss\Pages\Shared\_
 C:\mittuniversitetet\.NET\moment1\m1_1\obj\Debug\net9.0\scopedcss\bundle\m1_1.styles.css
 C:\mittuniversitetet\.NET\moment1\m1_1\obj\Debug\net9.0\scopedcss\projectbundle\m1_1.bundle.scp.css
 C:\mittuniversitetet\.NET\moment1\m1_1\obj\Debug\net9.0\compressed\e6k9tg7o5m-61n19gt1b8.gz
-C:\mittuniversitetet\.NET\moment1\m1_1\obj\Debug\net9.0\compressed\r04e77jqni-xtxxf3hu2r.gz
 C:\mittuniversitetet\.NET\moment1\m1_1\obj\Debug\net9.0\compressed\dmsmsn3h55-bqjiyaj88i.gz
 C:\mittuniversitetet\.NET\moment1\m1_1\obj\Debug\net9.0\compressed\lwervxbic2-c2jlpeoesf.gz
 C:\mittuniversitetet\.NET\moment1\m1_1\obj\Debug\net9.0\compressed\9exj6j08ji-erw9l3u2r3.gz
@@ -95,4 +94,5 @@ C:\mittuniversitetet\.NET\moment1\m1_1\obj\Debug\net9.0\ref\m1_1.dll
 C:\mittuniversitetet\.NET\moment1\m1_1\obj\Debug\net9.0\m1_1.sourcelink.json
 C:\mittuniversitetet\.NET\moment1\m1_1\obj\Debug\net9.0\compressed\axw0ddpgzq-v4t78s4e3d.gz
 C:\mittuniversitetet\.NET\moment1\m1_1\obj\Debug\net9.0\compressed\8at6kc8dff-v4t78s4e3d.gz
-C:\mittuniversitetet\.NET\moment1\m1_1\obj\Debug\net9.0\compressed\kawjn3wxrq-9dz8dbjgv0.gz
+C:\mittuniversitetet\.NET\moment1\m1_1\obj\Debug\net9.0\compressed\kawjn3wxrq-ulkmv9k2c0.gz
+C:\mittuniversitetet\.NET\moment1\m1_1\obj\Debug\net9.0\compressed\r04e77jqni-n37j2rbh08.gz

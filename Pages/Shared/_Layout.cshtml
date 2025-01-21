@@ -14,11 +14,23 @@
         <img src="~/images/logo_jpg.jpg" alt="Logotyp" id="logo">
         <div class="date" style="text-align: right;">
             <p>Dagens datum är: @DateTime.Now.ToString("yyyy-MM-dd")</p>
-        </div>   
+        </div> 
     </header>
+    <!-- Hamburgermenyknapp -->
+    <button id="hamburger-btn" class="hamburger-btn" aria-label="Toggle navigation">
+        <span class="hamburger-icon"></span>
+        <span class="hamburger-icon"></span>
+        <span class="hamburger-icon"></span>
+    </button>
+
     <div class="main_layout">
         <div class="sidebar">
             <nav>
+                <!-- Stänga hamburgemeny-knappen-->
+                <button id="close-btn" class="close-btn" aria-label="Close navigation">
+                    <span class="close-icon">X</span>
+                </button>
+                
                 <ul class="navbar-nav flex-column">
                     <li class="nav-item"><a class="nav-link text-dark" asp-area="" asp-page="/Index">Startsidan</a></li>
                     <li class="nav-item"><a class="nav-link text-dark" asp-area="" asp-page="/Razor">Razor</a></li>
