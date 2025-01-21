@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "C:\\mittuniversitetet\\.NET\\moment1\\m1_1\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\m1_1.bundle.scp.css",
-      "PackagePath": "staticwebassets\\m1_1.swdgfb63az.bundle.scp.css"
+      "PackagePath": "staticwebassets\\m1_1.v4t78s4e3d.bundle.scp.css"
     },
     {
       "Id": "C:\\mittuniversitetet\\.NET\\moment1\\m1_1\\wwwroot\\css\\site.css",
@@ -255,6 +255,10 @@
     {
       "Id": "C:\\mittuniversitetet\\.NET\\moment1\\m1_1\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "C:\\mittuniversitetet\\.NET\\moment1\\m1_1\\wwwroot\\logo_jpg.jpg",
+      "PackagePath": "staticwebassets\\logo_jpg.jpg"
     },
     {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.m1_1.props",

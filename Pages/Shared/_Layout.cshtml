@@ -10,32 +10,33 @@
     <link rel="stylesheet" href="~/m1_1.styles.css" asp-append-version="true" />
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">Razor</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item"><a class="nav-link text-dark" asp-area="" asp-page="/Index">Startsidan</a></li>
-                        <li class="nav-item"><a class="nav-link text-dark" asp-area="" asp-page="/about">Om mig</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+    <header> 
+        <img src="/logo_jpg" alt="logotype">
+        <div class="date" style="text-align: right;">
+            <p>Dagens datum är: @DateTime.Now.ToString("yyyy-MM-dd")</p>
+        </div>   
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
+    <div class="main_layout">
+        <div class="sidebar">
+            <nav>
+                <ul class="navbar-nav flex-column">
+                    <li class="nav-item"><a class="nav-link text-dark" asp-area="" asp-page="/Index">Startsidan</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" asp-area="" asp-page="/Razor">Razor</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" asp-area="" asp-page="/about">Om mig</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="container">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+        </div>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2025 - Anne-Lii Hansen  - <a asp-area="" asp-page="/Privacy">Privacy</a>
+    <footer>
+        <div>
+            &copy; 2025 - Anne-Lii Hansen  Kontakta mig via e-post: <a asp-area="" asp-page="/Privacy">anha2324@student.miun.se</a>
         </div>
     </footer>
 
