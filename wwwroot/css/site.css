@@ -127,6 +127,7 @@ footer {
   padding: 10px 0;
 }
 
+/* CSS för mindre skärmar än 800 pixlar */
 @media (max-width: 800px) {
 
   html {
