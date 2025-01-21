@@ -15,10 +15,13 @@ header {
   justify-content: space-between;
   padding: 0;
   height: 100px;
-  background-color: #f8f9fa;
-  border-bottom: 5px solid #f096f0;
+  border-bottom: 3px solid #caa75b;
   width: 100%;
+}
 
+img {
+  max-height: 90px;
+  padding-top: 5px;
 }
 
 .date {
@@ -38,18 +41,21 @@ header {
   padding:0 0 0 20px; 
   margin: 0;
   font-size: 24px;
-  background-color: aliceblue;
-  
 }
-nav ul li a{
-  color: #f096f0;
+
+nav ul li {
+  width: 100%;
+}
+
+nav ul li:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 .container {
   width: 75%;
   padding: 0;
-  margin: 0; 
-  background-color: rgb(200, 222, 241);
+  margin: 0 20px 0 0 ; 
 }
 
 footer {

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tfV7OEHjk8Lz6oiPCE1h/QFTmEDNMVDgsNM90Q2fylo=",
+  "Hash": "8PVrK7y5C2tMEDpTyPnod7bK539WzPHnlfyDMh3n+oI=",
   "Source": "m1_1",
   "BasePath": "_content/m1_1",
   "Mode": "Default",
@@ -1445,6 +1445,27 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\mittuniversitetet\\.NET\\moment1\\m1_1\\wwwroot\\images\\logo_jpg.jpg",
+      "SourceId": "m1_1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\mittuniversitetet\\.NET\\moment1\\m1_1\\wwwroot\\",
+      "BasePath": "_content/m1_1",
+      "RelativePath": "images/logo_jpg#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0jds4pqkn6",
+      "Integrity": "hKSXHtVqDFexbNyT+mcQfa4o9qUjIhHtsHp7DEKJPiw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logo_jpg.jpg"
+    },
+    {
       "Identity": "C:\\mittuniversitetet\\.NET\\moment1\\m1_1\\wwwroot\\js\\site.js",
       "SourceId": "m1_1",
       "SourceType": "Discovered",
@@ -2724,27 +2745,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
-    },
-    {
-      "Identity": "C:\\mittuniversitetet\\.NET\\moment1\\m1_1\\wwwroot\\logo_jpg.jpg",
-      "SourceId": "m1_1",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\mittuniversitetet\\.NET\\moment1\\m1_1\\wwwroot\\",
-      "BasePath": "_content/m1_1",
-      "RelativePath": "logo_jpg#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "0jds4pqkn6",
-      "Integrity": "hKSXHtVqDFexbNyT+mcQfa4o9qUjIhHtsHp7DEKJPiw=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\logo_jpg.jpg"
     }
   ],
   "Endpoints": [
@@ -3341,6 +3341,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-wfFuuYm+Lh6RbCeeiUqxw334b/hIOkp5j9eokGUM1Y0="
+        }
+      ]
+    },
+    {
+      "Route": "images/logo_jpg.0jds4pqkn6.jpg",
+      "AssetFile": "C:\\mittuniversitetet\\.NET\\moment1\\m1_1\\wwwroot\\images\\logo_jpg.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "45612"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hKSXHtVqDFexbNyT+mcQfa4o9qUjIhHtsHp7DEKJPiw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 10 Sep 2023 07:42:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0jds4pqkn6"
+        },
+        {
+          "Name": "label",
+          "Value": "images/logo_jpg.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hKSXHtVqDFexbNyT+mcQfa4o9qUjIhHtsHp7DEKJPiw="
+        }
+      ]
+    },
+    {
+      "Route": "images/logo_jpg.jpg",
+      "AssetFile": "C:\\mittuniversitetet\\.NET\\moment1\\m1_1\\wwwroot\\images\\logo_jpg.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "45612"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hKSXHtVqDFexbNyT+mcQfa4o9qUjIhHtsHp7DEKJPiw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 10 Sep 2023 07:42:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hKSXHtVqDFexbNyT+mcQfa4o9qUjIhHtsHp7DEKJPiw="
         }
       ]
     },
@@ -21303,88 +21385,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-JKWeHUaANNuffeRatdc54UCb84RoxjEw/nTq8Mops8Y="
-        }
-      ]
-    },
-    {
-      "Route": "logo_jpg.0jds4pqkn6.jpg",
-      "AssetFile": "C:\\mittuniversitetet\\.NET\\moment1\\m1_1\\wwwroot\\logo_jpg.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "45612"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hKSXHtVqDFexbNyT+mcQfa4o9qUjIhHtsHp7DEKJPiw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 10 Sep 2023 07:42:51 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "0jds4pqkn6"
-        },
-        {
-          "Name": "label",
-          "Value": "logo_jpg.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-hKSXHtVqDFexbNyT+mcQfa4o9qUjIhHtsHp7DEKJPiw="
-        }
-      ]
-    },
-    {
-      "Route": "logo_jpg.jpg",
-      "AssetFile": "C:\\mittuniversitetet\\.NET\\moment1\\m1_1\\wwwroot\\logo_jpg.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "45612"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hKSXHtVqDFexbNyT+mcQfa4o9qUjIhHtsHp7DEKJPiw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 10 Sep 2023 07:42:51 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-hKSXHtVqDFexbNyT+mcQfa4o9qUjIhHtsHp7DEKJPiw="
         }
       ]
     },
