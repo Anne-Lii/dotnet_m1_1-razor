@@ -2,11 +2,25 @@
 @model IndexModel
 @{
     ViewData["Title"] = "Razor";
+    var courses = new List<string>
+        {
+        "DT057G, Webbutveckling I",
+        "DT209G, Webbutveckling för WordPress",
+        "DT207G, Backend-baserad webbutveckling",
+        "DT003G, Databaser",
+        "DT071G, Programmering i C#.NET"
+        
+        };
 }
 
-<div class="text-center">
-    <h1 class="display-4">Sida om Razor</h1>
+<div>
+    <h1 class="display-4">Razor</h1> 
+    <h2>Kurser jag har läst: </h2>
 
-    
-    
+    <ul>
+        @foreach(var course in courses) {
+            <li>@course</li>
+        }
+
+    </ul>
 </div>

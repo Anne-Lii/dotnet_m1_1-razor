@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8PVrK7y5C2tMEDpTyPnod7bK539WzPHnlfyDMh3n+oI=",
+  "Hash": "jW4Lqg/jMNqT2a4RSln1+dEtfj04jNp+pnh4ju8w0lA=",
   "Source": "m1_1",
   "BasePath": "_content/m1_1",
   "Mode": "Default",
@@ -668,12 +668,12 @@
       "OriginalItemSpec": "C:\\mittuniversitetet\\.NET\\moment1\\m1_1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\mittuniversitetet\\.NET\\moment1\\m1_1\\obj\\Debug\\net9.0\\compressed\\kawjn3wxrq-qrbpot9e7m.gz",
+      "Identity": "C:\\mittuniversitetet\\.NET\\moment1\\m1_1\\obj\\Debug\\net9.0\\compressed\\kawjn3wxrq-9dz8dbjgv0.gz",
       "SourceId": "m1_1",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\mittuniversitetet\\.NET\\moment1\\m1_1\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/m1_1",
-      "RelativePath": "css/site#[.{fingerprint=qrbpot9e7m}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=9dz8dbjgv0}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -682,8 +682,8 @@
       "RelatedAsset": "C:\\mittuniversitetet\\.NET\\moment1\\m1_1\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "9uvx9b4cn8",
-      "Integrity": "j+tt0tbbrSbBoI50LPBSYezKjNoHEE324VOA//gKIm8=",
+      "Fingerprint": "nr12dqfcm5",
+      "Integrity": "czoKe4Ndz/l4kHUT2ZkmoHquyl4RFVsdzq4TXaidqOk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\mittuniversitetet\\.NET\\moment1\\m1_1\\wwwroot\\css\\site.css"
@@ -1417,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "qrbpot9e7m",
-      "Integrity": "1sMbup+eZVsvrmna92Y3OAzUncWA0WJPajMA3RnrcRA=",
+      "Fingerprint": "9dz8dbjgv0",
+      "Integrity": "8zG2acaacUqMlpcpydzwP0QO3+5bEV38yydJdb/mu2I=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -2749,13 +2749,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\mittuniversitetet\\.NET\\moment1\\m1_1\\obj\\Debug\\net9.0\\compressed\\kawjn3wxrq-qrbpot9e7m.gz",
+      "Route": "css/site.9dz8dbjgv0.css",
+      "AssetFile": "C:\\mittuniversitetet\\.NET\\moment1\\m1_1\\obj\\Debug\\net9.0\\compressed\\kawjn3wxrq-9dz8dbjgv0.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002092050209"
+          "Quality": "0.002004008016"
         }
       ],
       "ResponseHeaders": [
@@ -2765,19 +2765,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "477"
+          "Value": "498"
         },
         {
           "Name": "ETag",
-          "Value": "\"j+tt0tbbrSbBoI50LPBSYezKjNoHEE324VOA//gKIm8=\""
+          "Value": "\"czoKe4Ndz/l4kHUT2ZkmoHquyl4RFVsdzq4TXaidqOk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 21 Jan 2025 10:22:24 GMT"
+          "Value": "Tue, 21 Jan 2025 10:33:14 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -2793,18 +2793,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"1sMbup+eZVsvrmna92Y3OAzUncWA0WJPajMA3RnrcRA=\""
+          "Value": "W/\"8zG2acaacUqMlpcpydzwP0QO3+5bEV38yydJdb/mu2I=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "9dz8dbjgv0"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-1sMbup+eZVsvrmna92Y3OAzUncWA0WJPajMA3RnrcRA="
+          "Value": "sha256-8zG2acaacUqMlpcpydzwP0QO3+5bEV38yydJdb/mu2I="
         }
       ]
     },
     {
-      "Route": "css/site.css",
+      "Route": "css/site.9dz8dbjgv0.css",
       "AssetFile": "C:\\mittuniversitetet\\.NET\\moment1\\m1_1\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2814,7 +2822,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1033"
+          "Value": "1061"
         },
         {
           "Name": "Content-Type",
@@ -2822,121 +2830,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"1sMbup+eZVsvrmna92Y3OAzUncWA0WJPajMA3RnrcRA=\""
+          "Value": "\"8zG2acaacUqMlpcpydzwP0QO3+5bEV38yydJdb/mu2I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 21 Jan 2025 10:22:24 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-1sMbup+eZVsvrmna92Y3OAzUncWA0WJPajMA3RnrcRA="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css.gz",
-      "AssetFile": "C:\\mittuniversitetet\\.NET\\moment1\\m1_1\\obj\\Debug\\net9.0\\compressed\\kawjn3wxrq-qrbpot9e7m.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "477"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"j+tt0tbbrSbBoI50LPBSYezKjNoHEE324VOA//gKIm8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 21 Jan 2025 10:22:24 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-j+tt0tbbrSbBoI50LPBSYezKjNoHEE324VOA//gKIm8="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.qrbpot9e7m.css",
-      "AssetFile": "C:\\mittuniversitetet\\.NET\\moment1\\m1_1\\obj\\Debug\\net9.0\\compressed\\kawjn3wxrq-qrbpot9e7m.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.002092050209"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "477"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"j+tt0tbbrSbBoI50LPBSYezKjNoHEE324VOA//gKIm8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 21 Jan 2025 10:22:24 GMT"
+          "Value": "Tue, 21 Jan 2025 10:33:14 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"1sMbup+eZVsvrmna92Y3OAzUncWA0WJPajMA3RnrcRA=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "qrbpot9e7m"
+          "Value": "9dz8dbjgv0"
         },
         {
           "Name": "label",
@@ -2944,13 +2852,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-1sMbup+eZVsvrmna92Y3OAzUncWA0WJPajMA3RnrcRA="
+          "Value": "sha256-8zG2acaacUqMlpcpydzwP0QO3+5bEV38yydJdb/mu2I="
         }
       ]
     },
     {
-      "Route": "css/site.qrbpot9e7m.css",
-      "AssetFile": "C:\\mittuniversitetet\\.NET\\moment1\\m1_1\\wwwroot\\css\\site.css",
+      "Route": "css/site.9dz8dbjgv0.css.gz",
+      "AssetFile": "C:\\mittuniversitetet\\.NET\\moment1\\m1_1\\obj\\Debug\\net9.0\\compressed\\kawjn3wxrq-9dz8dbjgv0.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2959,7 +2867,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1033"
+          "Value": "498"
         },
         {
           "Name": "Content-Type",
@@ -2967,56 +2875,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"1sMbup+eZVsvrmna92Y3OAzUncWA0WJPajMA3RnrcRA=\""
+          "Value": "\"czoKe4Ndz/l4kHUT2ZkmoHquyl4RFVsdzq4TXaidqOk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 21 Jan 2025 10:22:24 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "qrbpot9e7m"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-1sMbup+eZVsvrmna92Y3OAzUncWA0WJPajMA3RnrcRA="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.qrbpot9e7m.css.gz",
-      "AssetFile": "C:\\mittuniversitetet\\.NET\\moment1\\m1_1\\obj\\Debug\\net9.0\\compressed\\kawjn3wxrq-qrbpot9e7m.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "477"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"j+tt0tbbrSbBoI50LPBSYezKjNoHEE324VOA//gKIm8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 21 Jan 2025 10:22:24 GMT"
+          "Value": "Tue, 21 Jan 2025 10:33:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3034,7 +2897,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "qrbpot9e7m"
+          "Value": "9dz8dbjgv0"
         },
         {
           "Name": "label",
@@ -3042,7 +2905,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-j+tt0tbbrSbBoI50LPBSYezKjNoHEE324VOA//gKIm8="
+          "Value": "sha256-czoKe4Ndz/l4kHUT2ZkmoHquyl4RFVsdzq4TXaidqOk="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\mittuniversitetet\\.NET\\moment1\\m1_1\\obj\\Debug\\net9.0\\compressed\\kawjn3wxrq-9dz8dbjgv0.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002004008016"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "498"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"czoKe4Ndz/l4kHUT2ZkmoHquyl4RFVsdzq4TXaidqOk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 10:33:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"8zG2acaacUqMlpcpydzwP0QO3+5bEV38yydJdb/mu2I=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8zG2acaacUqMlpcpydzwP0QO3+5bEV38yydJdb/mu2I="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\mittuniversitetet\\.NET\\moment1\\m1_1\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1061"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8zG2acaacUqMlpcpydzwP0QO3+5bEV38yydJdb/mu2I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 10:33:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8zG2acaacUqMlpcpydzwP0QO3+5bEV38yydJdb/mu2I="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "C:\\mittuniversitetet\\.NET\\moment1\\m1_1\\obj\\Debug\\net9.0\\compressed\\kawjn3wxrq-9dz8dbjgv0.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "498"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"czoKe4Ndz/l4kHUT2ZkmoHquyl4RFVsdzq4TXaidqOk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 10:33:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-czoKe4Ndz/l4kHUT2ZkmoHquyl4RFVsdzq4TXaidqOk="
         }
       ]
     },
