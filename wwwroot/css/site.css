@@ -19,15 +19,17 @@ header {
   width: 100%;
 }
 
+/* Logga */
 #logo {
   margin: 0;
 }
 
+/* Dagens datum */
 .date {
   padding: 30px;
 }
 
-/* Hamburgemenyknapp */
+/* Hamburgemeny-knapp */
 .hamburger-btn {
   display: none;
   background: none;
@@ -73,8 +75,6 @@ nav ul li a{
   color: #caa75b;
 }
 
-
-
 nav ul li:hover {
   cursor: pointer;
   text-decoration: underline;
@@ -116,6 +116,7 @@ img {
   margin-top: 40px;
 }
 
+/* Footer */
 footer {
   position: absolute;
   bottom: 0;
@@ -134,16 +135,19 @@ footer {
     font-size: 16px;
   }
 
+  /* Visar hamburgemeny-knappen */
   .hamburger-btn {
     display: block;
   }
 
+  /* Centrerar texten på huvudinnehållet */
   .container {
     width: 90%;
     margin: 0 auto;
     text-align: center;
   }
 
+  /* Menyn som visas vid klick på hamburgemeny-knappen */
   .sidebar {
     width: 100%;
     position: absolute;
@@ -181,6 +185,7 @@ footer {
     text-decoration: underline;
   }
 
+  /* X för att stänga menyn */
   #close-btn {
     display: block;
     background-color: #ffffff;

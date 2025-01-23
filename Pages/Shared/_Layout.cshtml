@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Razor </title>
+    <title>@ViewData["Title"] - Razor </title><!-- Dynamisk titel -->
     <script type="importmap"></script>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
@@ -11,22 +11,30 @@
 </head>
 <body>
     <header> 
+        <!-- Logga -->
         <img src="~/images/logo_jpg.jpg" alt="Logotyp" id="logo">
+
+        <!-- Dagens datum -->
         <div class="date" style="text-align: right;">
             <p>Dagens datum är: @DateTime.Now.ToString("yyyy-MM-dd")</p>
         </div> 
+
     </header>
-    <!-- Hamburgermenyknapp -->
+
+    <!-- Hamburgermeny-knapp -->
     <button id="hamburger-btn" class="hamburger-btn" aria-label="Toggle navigation">
         <span class="hamburger-icon"></span>
         <span class="hamburger-icon"></span>
         <span class="hamburger-icon"></span>
     </button>
 
+    <!-- Sidinnehåll -->
     <div class="main_layout">
+
+        <!-- Sidebar med navigering -->
         <div class="sidebar">
             <nav>
-                <!-- Stänga hamburgemeny-knappen-->
+                <!-- X för att Stänga hamburgemeny-->
                 <button id="close-btn" class="close-btn" aria-label="Close navigation">
                     <span class="close-icon">X</span>
                 </button>
@@ -39,6 +47,7 @@
             </nav>
         </div>
 
+        <!-- Här visas de separata sidornas unika huvudinnehåll -->
         <div class="container">
             <main role="main" class="pb-3">
                 @RenderBody()
@@ -46,6 +55,7 @@
         </div>
     </div>
 
+    <!-- Footer -->
     <footer>
         <div>
             &copy; 2025 - Anne-Lii Hansen  Kontakta mig via e-post:  <a href="mailto:anha2324@student.miun.se">anha2324@student.miun.se</a>
